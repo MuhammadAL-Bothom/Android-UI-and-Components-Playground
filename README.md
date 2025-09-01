@@ -1,4 +1,4 @@
-# 💎 training4 — Android UI & Components Playground (Java)
+# 💎 Android UI & Components Playground
 
 **training4** is a compact Android demo app showcasing common UI patterns and components:
 a splash/intro animation, dashboard cards, app-bar menu navigation, profile with photo picker,
