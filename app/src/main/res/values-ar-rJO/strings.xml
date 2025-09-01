@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="setting_title">إعداد Clever Mind POB</string>
+    <string name="change_password">تغيير كلمة المرور:</string>
+    <string name="old_password_hint">  كلمة المرور القديمة(1234) </string>
+    <string name="new_password_hint">كلمة المرور الجديدة</string>
+    <string name="save_button">حفظ</string>
+    <string name="incorrect_old_password">كلمة المرور القديمة غير صحيحة.</string>
+    <string name="password_updated_successfully">تم تحديث كلمة المرور بنجاح!</string>
+    <string name="new_password_empty">كلمة المرور الجديدة لا يمكن أن تكون فارغة.</string>
+    <string name="language_changed">تم تغيير اللغة بنجاح.</string>
+</resources>

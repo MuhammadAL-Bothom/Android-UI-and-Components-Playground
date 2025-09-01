@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name" translatable="false">traning4</string>
+    <string name="created_by" translatable="false">weeeeee</string>
+    <string name="setting_title">Clever Mind POB Setting</string>
+    <string name="change_password">Change Password:</string>
+    <string name="old_password_hint">Old Password (1234)</string>
+    <string name="new_password_hint">New Password</string>
+    <string name="save_button">Save</string>
+    <string name="incorrect_old_password">Incorrect old password.</string>
+    <string name="password_updated_successfully">Password updated successfully!</string>
+    <string name="new_password_empty">New password cannot be empty.</string>
+    <string name="language_changed">language_changed.</string>
+</resources>

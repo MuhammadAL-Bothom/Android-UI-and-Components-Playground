@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Button2">
+
+    <com.ncorti.slidetoact.SlideToActView
+        android:id="@+id/example"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="6dp"
+        app:slider_reversed="true"
+        app:animation_duration="250"
+        app:area_margin="4dp"
+        app:border_radius="2dp"
+        app:bounce_on_start="true"
+        app:inner_color="#5C5C5C"
+        app:outer_color="#FFEB3B"
+        app:slider_height="80dp"
+        app:slider_locked="false"
+        app:text="Testing all the custom attributes"
+        app:text_size="12sp" />
+
+    <com.ncorti.slidetoact.SlideToActView
+        android:id="@+id/example2"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="6dp"
+        app:animation_duration="250"
+        app:area_margin="4dp"
+        app:border_radius="2dp"
+        app:bounce_on_start="true"
+        app:inner_color="#5C5C5C"
+        app:outer_color="#FFEB3B"
+        app:slider_height="80dp"
+        app:slider_locked="false"
+        app:text="Testing all the custom attributes"
+        app:text_size="12sp"
+        android:layout_below="@id/example"
+        app:complete_icon="@drawable/bat"
+
+        />
+    <com.ncorti.slidetoact.SlideToActView
+        app:slider_icon="@drawable/custom_icon"
+        android:id="@+id/example3"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="6dp"
+        app:animation_duration="250"
+        app:area_margin="4dp"
+        app:border_radius="0dp"
+        app:bounce_on_start="true"
+        app:inner_color="#FFFFFF"
+        app:outer_color="#FF00A1"
+        app:slider_height="80dp"
+        app:slider_locked="false"
+        app:state_complete="true"
+        app:text="Testing all the custom attributes"
+        app:text_size="12sp"
+        android:layout_below="@id/example2"
+        app:complete_icon="@drawable/catblack"
+
+
+        />
+
+    <com.ncorti.slidetoact.SlideToActView
+        app:slider_icon="@drawable/custom_icon"
+        android:id="@+id/example4"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="6dp"
+        app:animation_duration="250"
+        app:area_margin="4dp"
+        app:border_radius="200dp"
+        app:bounce_on_start="true"
+        app:slider_height="80dp"
+        app:slider_locked="false"
+        app:text="Testing all the custom attributes"
+        app:text_size="12sp"
+        android:layout_below="@id/example3"
+        app:complete_icon="@drawable/custom_icon"
+        app:slider_icon_color="@color/orange"
+        app:inner_color="#FFFFFF"
+        app:outer_color="#0037FF"
+
+
+        />
+</RelativeLayout>
+
+
